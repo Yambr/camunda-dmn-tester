@@ -1,7 +1,10 @@
 .DS_Store
 node_modules
 /dist
-
+.helm
+.gitlab-ci.yml
+werf.yaml
+      
 # local env files
 .env.local
 .env.*.local
@@ -20,5 +23,5 @@ yarn-error.log*
 *.sln
 *.sw?
 /package-lock.json
-/werf.yaml
-/.gitlab-ci.yml
+
+

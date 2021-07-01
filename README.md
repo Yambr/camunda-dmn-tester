@@ -1,9 +1,6 @@
 # Typescript + Express + Vuejs
-Boilerplate for Express + Vue.JS with Typescript
+DMN tester by Express + Vue.JS with Typescript
 
-If you need a similar boilerplate for Vue 3, Typescript and Composition api [check it here](https://github.com/elibolonur/ts-express-vue3)
-
-Feel free to send PR :tada:
 
 `npm run serve` to run both client & server project concurrently 
  
@@ -20,3 +17,10 @@ Feel free to send PR :tada:
  
 `npm run build:server` to build server project. 
 
+
+### Docker build
+docker build . -t dmn-tester:server -f server/Dockerfile
+docker build . -t dmn-tester:client -f src/Dockerfile
+
+### Environments settings
+see .env files
