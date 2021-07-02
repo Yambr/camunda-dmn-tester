@@ -8,8 +8,8 @@ Camunda dmn tester connecting to you camunda server (set in environment variable
 #### Searching Dmn
 1. Search works by key of you dmn
 2. You Can open dmn from you camunda server
-![img.png](../images/home-actions.png)
-   or delete decision(deployment) from server
+  * ![img.png](../images/home-actions.png)
+  * or delete decision(deployment) from server
    
 #### Open Dmn
 ![img.png](../images/home-open.png)

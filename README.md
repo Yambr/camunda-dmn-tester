@@ -40,3 +40,6 @@ docker build . -t dmn-tester:client -f src/Dockerfile
 
 ### Environments settings
 see .env files
+
+----
+*pull requests friendly!)*
