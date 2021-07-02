@@ -8,7 +8,7 @@
             <b-icon-file v-if="!item.isDirectory"></b-icon-file>
           </template>
         </b-table>
-        <b-button @click="home">Домой</b-button>
+        <b-button @click="home">Back to Home folder</b-button>
       </b-col>
     </b-row>
   </b-container>

@@ -17,7 +17,7 @@
             <b-link :href="host"> {{ host }}</b-link>
           </h4>
           <hr/>
-          <b-form-input v-model="q" placeholder="Поиск" @change="onsearch"></b-form-input>
+          <b-form-input v-model="q" placeholder="Search" @change="onsearch"></b-form-input>
           <div class="pt-3">
             <b-table :busy="isBusy" light small striped hover outlined :items="decisions" :fields="fields">
               <template #cell(key_name)="{item}">

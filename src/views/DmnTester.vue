@@ -55,7 +55,7 @@
                         <b-button variant="light" @click="add(item)"
                                   v-b-tooltip.hover title="Дополнительный входной параметр">
                           <b-icon-plus></b-icon-plus>
-                          Добавить параметр
+                          Add parameter
                         </b-button>
                       </b-button-group>
                     </b-button-toolbar>

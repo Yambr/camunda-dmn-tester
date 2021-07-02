@@ -1,6 +1,22 @@
-# Typescript + Express + Vuejs
-DMN tester by Express + Vue.JS with Typescript
+# Camunda DMN tester
 
+![img.png](images/dem-tester.png)
+
+```
+by Express + Vue.JS with Typescript
+```
+using:
+* bpmn-io - *for dmn migration*
+* dmn-js - *for edit dmn online*
+* isomorphic-git - *for store tests and dmn in git repository*
+* browserfs - *for use git and fs in browser*
+* cookie_js - *for store you tenant*
+* bootstrap - *for cool interface*
+* vue - *because it simple)*
+
+[more docs here](docs/README.md)
+
+### If you want develop:
 
 `npm run serve` to run both client & server project concurrently 
  
